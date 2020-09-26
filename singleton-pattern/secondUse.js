@@ -1,5 +1,4 @@
-import FancyLogger from './fancylogger';
-const logger = new FancyLogger();
+import logger from './fancylogger';
 
 export default function logSecondImplementation() {
     logger.printLogCount();
